@@ -1,6 +1,6 @@
 'use strict';
 
-const HashMap = require('./hashmap');
+const HashMap = require('./hashmap-oa');
 
 let lorArr = [
   { Hobbit: 'Bilbo' },
