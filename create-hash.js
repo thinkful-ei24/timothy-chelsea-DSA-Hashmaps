@@ -22,6 +22,8 @@ function main() {
     Object.keys(obj).forEach(key => lor.set(key, obj[key]));
   });
   console.log(lor);
+
+  console.log(lor.get('Maiar'));
 }
 
 main();
