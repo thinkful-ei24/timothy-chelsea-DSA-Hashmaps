@@ -27,6 +27,11 @@ class HashMap {
     return this._slots[index].value;
   }
 
+  has(key){
+    const index = this._findSlot(key);
+    return this._slots[index] !== undefined;
+  }
+
   //Adding items
   set(key, value) {
     const loadRatio = (this.length + this._deleted + 1) / this._capacity;
